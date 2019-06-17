@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style>
+#cont{
+	background-image: url("portu.jpg");
+	width: 100%;
+	height: 500px;
+	background-size: 100% 100%;
+	
+}
+#z-index-2{
+	display: none;
+}
+#roda{
+	text-align: center;
+}
+	*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+
+
+}
+	
+#menu{
+
+float:right; 
+list-style-type:none;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 60px;
+color:white;
+background-color:white;
+background:rgb(41, 71, 68);
+
+
+
+}
+
+.menu li
+{
+display: inline;
+float:left;
+width:200px;
+background-color:black;
+height:50px;
+line-height:45px;
+text-align:center;
+font-family:sans-serif;
+margin-left: 10px;
+}
+.menu li:hover
+{
+opacity:0.8;
+}
+
+.submenu
+{
+ display: block;
+        list-style: none;
+    align-items: center;
+    
+    width: 500px;
+    height: 42px;
+    line-height: 42px;
+    background-color: transparent;
+    display: none;
+   
+}
+
+.submenu li
+{
+width: 200px;
+height:40px;
+background-color:black;
+text-decoration: none;
+padding: 0px;
+float: left;
+text-align: center;
+
+}
+
+.menu li:hover ul
+{
+    display: inline;
+    margin: none;
+	
+}
+.menu a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+#fonologia{
+  display: none;
+}
+#morfologia{
+  display: none;
+}
+#sintaxe{
+  display: none;
+}
+#fonetica{
+  display: none;
+}
+#semantica{
+  display: none;
+
+}
+
+
+</style>	
+<title>Portugues</title>
+</head>
+<body id="body">
+<script >
+	alert("Voce agora vai ver assuntos de Portugues")
+</script>
+
+<div id="menu">
+	<ul class="menu">
+  <li onclick="forma()">
+    <ul >Home:</ul>
+  </li>
+</ul>
+	<ul class="menu">
+  <li>Gramatica:
+  <ul class="submenu" ><li onclick="fonetica()">Fonética</li></ul>
+  <ul class="submenu"><li onclick="fonologia()">Fonologia</li></ul>
+  <ul class="submenu"><li onclick="morfologia()"> Morfologia</li></ul>
+  <ul class="submenu"><li onclick="sintaxe()">Sintaxe</li></ul>
+  <ul class="submenu"><li onclick="semantica()">Semântica</li></ul>
+
+  </li>
+  <li>Literatura:
+  <ul class="submenu"><li><a href="" target="_blank">Trovadorismo</a></li></ul>
+   <ul class="submenu"><li><a href="" target="_blank">
+Humanismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">Quinhentismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">
+Classicismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">Barroco</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">
+Arcadismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">
+Romantismo </a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">Realismo e Naturalismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">
+Parnasianismo</a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">Simbolismo </a></li></ul>
+    <ul class="submenu"><li><a href="" target="_blank">Pré-Modernismo </a></li></ul>
+  </li>
+  <li>Redação;
+  <ul class="submenu"><li><a href="">Dissertação</a></li></ul>
+  <ul class="submenu"><li><a href=""> Descrição </a></li></ul>
+  <ul class="submenu"><li><a href=""> Narração</a></li></ul>
+  </li>
+</ul>
+</div>
+<div id="conteudo">
+	<div id="fonetica">
+                <center>
+                 <img src="fon.png">
+                <h2>Porque usamos isso?</h2>
+<p>É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao analisar seu layout. O ponto de usar o Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça legível em inglês. Muitos editores de editoração eletrônica e editores de páginas da web agora usam o Lorem Ipsum como seu texto de modelo padrão, e uma pesquisa por 'lorem ipsum' descobrirá muitos sites ainda na sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e coisas do gênero).</p>
+                    </center>
+            </div>
+             <div id="fonologia">
+                <center>
+                 <img src="fonol.jpg">
+                <h2>O que é o Lorem Ipsum?</h2>
+<p>Lorem Ipsum é simplesmente texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando uma impressora desconhecida pegou uma galé do tipo e subiu para fazer um livro de espécimes de tipo. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Foi popularizado nos anos 60 com o lançamento de folhas de Letraset contendo passagens de Lorem Ipsum, e mais recentemente com software de editoração eletrônica como Aldus PageMaker incluindo versões de Lorem Ipsum.</p>
+                    </center>
+            </div>
+            <div id="morfologia">
+                    <center>
+                 <img src="mor.jpg">
+                <h2>De onde isso vem?</h2>
+<p>Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. Tem raízes em uma peça de literatura latina clássica de 45 aC, com mais de 2000 anos de idade. Richard McClintock, um professor de latim no Hampden-Sydney College, na Virgínia, procurou uma das palavras mais obscuras do latim, consectetur, de uma passagem de Lorem Ipsum, e examinando as citações da palavra na literatura clássica, descobriu a fonte inquestionável. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "Finibus Bonorum et Malorum" (Os extremos do bem e do mal) de Cícero, escrito em 45 aC. Este livro é um tratado sobre a teoria da ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", vem de uma linha na seção 1.10.32</p>
+                    </center>
+            </div>
+             <div id="sintaxe">
+                    <center>
+                 <img src="sin.jpg">
+                <h2>De onde isso vem?</h2>
+<p>Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. Tem raízes em uma peça de literatura latina clássica de 45 aC, com mais de 2000 anos de idade. Richard McClintock, um professor de latim no Hampden-Sydney College, na Virgínia, procurou uma das palavras mais obscuras do latim, consectetur, de uma passagem de Lorem Ipsum, e examinando as citações da palavra na literatura clássica, descobriu a fonte inquestionável. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "Finibus Bonorum et Malorum" (Os extremos do bem e do mal) de Cícero, escrito em 45 aC. Este livro é um tratado sobre a teoria da ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", vem de uma linha na seção 1.10.32</p>
+                    </center>
+            </div>
+             <div id="semantica">
+                    <center>
+                 <img src="sema.jpg">
+                <h2>De onde isso vem?</h2>
+<p>Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. Tem raízes em uma peça de literatura latina clássica de 45 aC, com mais de 2000 anos de idade. Richard McClintock, um professor de latim no Hampden-Sydney College, na Virgínia, procurou uma das palavras mais obscuras do latim, consectetur, de uma passagem de Lorem Ipsum, e examinando as citações da palavra na literatura clássica, descobriu a fonte inquestionável. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "Finibus Bonorum et Malorum" (Os extremos do bem e do mal) de Cícero, escrito em 45 aC. Este livro é um tratado sobre a teoria da ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", vem de uma linha na seção 1.10.32</p>
+                    </center>
+            </div>
+</div>
+<div id="forma">
+<div id="cont">
+</div>
+<div id="roda">
+  <h1>Por que é importante estudar português?</h1>
+  <h2 >O português ocupa o 5º lugar entre os idiomas mais falados do mundo</h2>
+  <p>
+    Que é muito importante ter fluência em uma segunda língua, além da nossa materna, todos nós sabemos.<br> Afinal, com a globalização, possuir proficiência em outro idioma (como o inglês) é a porta de entrada para um leque de oportunidades no mundo. <br >No entanto, poucos dedicam esse mesmo cuidado ao próprio idioma; no nosso caso, o português.<br> 
+
+
+Falado por mais de 250 milhões de nativos, a língua portuguesa ocupa o 5º lugar entre os idiomas mais falados do mundo, segundo pesquisas.<br> Cada vez mais, a língua portuguesa tem despertado interesse em pessoas de todos os lugares e a razão disso pode ser o destaque que o Brasil tem obtido<br> no cenário mundial, seja por conta da sua diversidade, seja por fazer parte do grupo de países emergentes chamados BRICS (Brasil, Rússia, Índia, China e África do Sul).
+  </p>
+  <h2>E por que é tão relevante saber falar e escrever bem o português?</h2>
+  <p>O fato de falarmos a língua portuguesa desde criança não significa que conhecemos e usamos bem o nosso idioma.<br> Muitas vezes, ao falar ou escrever, cometemos diversos deslizes e, dependendo do contexto, esses deslizes podem deixar uma má impressão.<br> Por exemplo: em uma entrevista de emprego para uma vaga de gerente em que o candidato produz frases com gírias, não faz adequadamente a concordância verbal e usa uma linguagem coloquial, qual imagem a empresa terá dele? Com certeza, não será das melhores.<br> Outro exemplo: um universitário precisa redigir um artigo que será a nota da sua disciplina, em que usa o chamado “internetês” e não consegue escrever com coesão e coerência.<br> Será que a nota dele será alta? Provavelmente, não.<br>
+
+Esses são só dois exemplos dentre os milhares que poderíamos citar.<br> Eles são válidos para ressaltar que a importância de dominar o português não se limita apenas a uma área das nossas vidas; <br >pelo contrário, está em todos os âmbitos: quando escrevemos um e-mail, em reuniões profissionais,<br> quando elaboramos um currículo ou redigimos uma redação para fins acadêmicos e até mesmo quando precisamos saber se devemos utilizar a variedade formal ou informal da língua.<br>
+
+“O aluno costuma iniciar um curso de língua portuguesa, seja qual for o objetivo (concursos, aprimoramento pessoal, vestibular etc.),<br> com a ideia falha de que gramática normativa é a mesma coisa que língua (em nosso caso, língua portuguesa).<br> E não é culpa dele: essa informação é apresentada a todos nós por um ensino fundamental e médio problemáticos.<br> O primeiro passo é desmistificar isso, para que o aluno possa, então, começar sua caminhada em busca do aprimoramento na utilização da língua portuguesa.<br> Em outras palavras: não basta saber gramática, pois é preciso, antes de mais nada,<br> compreender que a linguagem deve ser sempre adequada ao contexto em que ela está sendo utilizada”, <br>ressalta Pedro Freire, consultor de Português da CCLi.</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script >
+  function forma(){
+                document.getElementById("forma").style.display = "block";
+                document.getElementById("semantica").style.display = "none";
+      document.getElementById("sintaxe").style.display = "none";
+                document.getElementById("fonetica").style.display = "none";
+                document.getElementById("fonologia").style.display = "none";
+                document.getElementById("morfologia").style.display = "none";
+            }
+          function sintaxe(){
+            document.getElementById("semantica").style.display = "none";
+             document.getElementById("sintaxe").style.display = "block";
+                document.getElementById("forma").style.display = "none";
+                document.getElementById("fonetica").style.display = "none";
+                document.getElementById("fonologia").style.display = "none";
+                document.getElementById("morfologia").style.display = "none";
+            }
+            function semantica(){
+               document.getElementById("semantica").style.display = "block";
+             document.getElementById("sintaxe").style.display = "none";
+                document.getElementById("forma").style.display = "none";
+                document.getElementById("fonetica").style.display = "none";
+                document.getElementById("fonologia").style.display = "none";
+                document.getElementById("morfologia").style.display = "none";
+            }
+          
+          
+  function fonetica(){
+    document.getElementById("semantica").style.display = "none";
+     document.getElementById("sintaxe").style.display = "none";
+                document.getElementById("forma").style.display = "none";
+                document.getElementById("fonetica").style.display = "block";
+                document.getElementById("fonologia").style.display = "none";
+                document.getElementById("morfologia").style.display = "none";
+            }
+            function fonologia(){
+              document.getElementById("semantica").style.display = "none";
+               document.getElementById("sintaxe").style.display = "none";
+              document.getElementById("forma").style.display = "none";
+                document.getElementById("fonetica").style.display = "none";
+                document.getElementById("fonologia").style.display = "block";
+                document.getElementById("geografia").style.display = "none";
+            }
+            function morfologia(){
+              document.getElementById("semantica").style.display = "none";
+               document.getElementById("sintaxe").style.display = "none";
+              document.getElementById("forma").style.display = "none";
+                document.getElementById("fonetica").style.display = "none";
+                document.getElementById("fonologia").style.display = "none";
+                document.getElementById("morfologia").style.display = "block";
+            }
+</script>
+</body>
+</html>
